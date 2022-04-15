@@ -75,7 +75,7 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    background-color: #98989e;
+    background-color: #8a8a8a;
     z-index: 1000;
     display: flex;
     align-items: center;
@@ -145,7 +145,7 @@ header .navbar a {
 
 header .navbar a:hover {
     color: var(--red);
-    background-color: #bbbbbe;
+    background-color: #a3a3a3;
 }
 
 header .icons i {
@@ -165,7 +165,7 @@ header .search-bar-container {
     left: 0;
     right: 0;
     padding: 1.5rem 2rem;
-    background: #333;
+    background: d8d8d8;
     border-top: .1rem solid rgba(255, 255, 255, .2);
     display: flex;
     align-items: center;
@@ -303,60 +303,6 @@ header .search-bar-container label:hover {
     z-index: 0;
 }
 
-.home .main {
-    text-align: center;
-}
-
-.home .main h3 {
-    font-size: 3.5rem;
-    color: #fff;
-    text-transform: uppercase;
-    text-shadow: 0 .3rem .5rem rgba(0, 0, 0, .1);
-}
-
-h3 span {
-    color: rgb(255, 74, 104);
-}
-
-
-.home .main p {
-    font-size: 2.5rem;
-    color: #fff;
-    padding: .5rem 0;
-}
-
-.home .video-container video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
-
-.home .controls {
-    padding: 1rem;
-    border-radius: 5rem;
-    background: rgba(0, 0, 0, .7);
-    position: relative;
-    top: 10rem;
-}
-
-.home .controls .vid-btn {
-    height: 2rem;
-    width: 2rem;
-    display: inline-block;
-    border-radius: 50%;
-    background: #fff;
-    cursor: pointer;
-    margin: 0 .5rem;
-}
-
-.home .controls .vid-btn.active {
-    background: var(--red);
-}
-
 .seeds .box-container {
     display: flex;
     flex-wrap: wrap;
@@ -486,7 +432,7 @@ h3 span {
 
 .contact .row form {
     flex: 1 1 50rem;
-    padding: 2rem;
+    padding: 1rem;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, .1);
     border-radius: .5rem;
 }
@@ -519,13 +465,13 @@ h3 span {
 }
 
 .footer {
-    background: #333;
+    background:#f75050;
 }
 
 .footer .box-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 2.5rem;
+    gap: 1rem;
 }
 
 .footer .box-container .box {
@@ -568,7 +514,7 @@ h3 span {
 }
 
 .footer .credit span {
-    color: var(--red);
+    color: var(--white);
 }
 
 
